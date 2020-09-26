@@ -10,29 +10,19 @@
                                             <table class="table table-striped dataex-html5-selectors">
                                                 <thead>
                                                     <tr>
-                                                        <th>Product</th>
                                                         <th>Category</th>
-                                                        <th>Sub-category</th>
-                                                        
-                                                        <th>Price</th>
-                                                        <th>Quantity</th>
-                                                        
+                                                        <th>description</th>
                                                         <th>Actions</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <?php foreach($products as $key => $value) { ?>
+                                                    <?php foreach($categories as $key => $value) { ?>
                                                     <tr>
-                                                        <td><?php echo $value->product_name; ?></td>
-                                                        <td><?php echo  $value->cat_name; ?></td>
-                                                        <td><?php echo  $value->sub_cat_name; ?></td>
-                                                        <td><?php echo  $value->price; ?></td>
-                                                        <td><?php echo  $value->quantity; ?></td>
-                                                        
+                                                        <td><?php echo $value->cat_name; ?></td>
+                                                        <td><?php echo  $value->description; ?></td>
                                                         <td>
-                                                            <a href="<?php echo base_url();?>editProduct/<?= $value->product_id; ?>">Edit</a>
-                                                            <a href="<?php echo base_url();?>deleteProduct/<?= $value->product_id; ?>">Delete</a>
-                                                            <a href="">Details</a>
+                                                            <a href="<?php echo base_url(); ?>editCat/<?= $value->cat_id; ?>">Edit</a>
+                                                            <a href="<?php echo base_url(); ?>deleteCat/<?= $value->cat_id; ?>">Delete</a>
                                                         </td>
                                                     </tr>
                                                     <?php } ?>

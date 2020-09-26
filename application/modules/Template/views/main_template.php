@@ -218,11 +218,11 @@
                     <ul class="menu-content">
                         <li class="nav-item"><a href=""><i class="bx bx-right-arrow-alt" data-icon="desktop"></i><span class="menu-item" data-i18n="eCommerce">Products</span></a>
                             <ul class="menu-content">
-                                <li><a href="<?php echo base_url(); ?>product"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Manage Category</span></a>
-                                </li>
-                                <li><a href="<?php echo base_url(); ?>product"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Manage Sub-Cat</span></a>
-                                </li>
                                 <li><a href="<?php echo base_url(); ?>product"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Manage Product</span></a>
+                                </li>
+                                <li><a href="<?php echo base_url(); ?>manageCategory"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Manage Category</span></a>
+                                </li>
+                                <li><a href="<?php echo base_url(); ?>manageSubCategory"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Manage Sub-Cat</span></a>
                                 </li>
                             </ul>
                         </li>
