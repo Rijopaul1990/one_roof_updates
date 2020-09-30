@@ -255,5 +255,9 @@ class Product extends My_Controller{
                 $this->session->set_flashdata('cat_success', $alert);
                 return redirect('product');
     }
+
+    function alert(){
+        echo "Page under construction....";
+    }
 }  
 ?>

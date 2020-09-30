@@ -188,8 +188,8 @@
                         <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
                                 <div class="user-nav d-sm-flex d-none"><span class="user-name">Xavier</span><span class="user-status text-muted">Available</span></div><span><img class="round" src="<?php echo base_url(); ?>assets/images/avatar-s-11.jpg" alt="avatar" height="40" width="40"></span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right pb-0"><a class="dropdown-item" href="page-user-profile.html"><i class="bx bx-user mr-50"></i> Edit Profile</a>
-                                <div class="dropdown-divider mb-0"></div><a class="dropdown-item" href="auth-login.html"><i class="bx bx-power-off mr-50"></i> Logout</a>
+                            <div class="dropdown-menu dropdown-menu-right pb-0"><a class="dropdown-item" href="#"><i class="bx bx-user mr-50"></i> Edit Profile</a>
+                                <div class="dropdown-divider mb-0"></div><a class="dropdown-item" href="<?php echo base_url(); ?>"><i class="bx bx-power-off mr-50"></i> Logout</a>
                             </div>
                         </li>
                     </ul>
@@ -228,7 +228,7 @@
                         </li>
                         <!--<li class="active"><a href="dashboard-analytics.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>-->
                         <!--</li>-->
-                        <li class="active"><a href="dashboard-analytics.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Invoice</span></a>
+                        <li class="active"><a href="<?php echo base_url(); ?>alert"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Analytics">Invoice</span></a>
                         </li>
                     </ul>
                 </li>
@@ -260,7 +260,7 @@
 
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static footer-light">
-        <p class="clearfix mb-0"><span class="float-left d-inline-block">2020 &copy; CNC</span><span class="float-right d-sm-inline-block d-none">Crafted with<i class="bx bxs-heart pink mx-50 font-small-3"></i>by<a class="text-uppercase" href="https://1.envato.market/pixinvent_portfolio" target="_blank">CrustNCore</a></span>
+        <p class="clearfix mb-0"><span class="float-left d-inline-block">2020 &copy; CNC</span><span class="float-right d-sm-inline-block d-none">Crafted with<i class="bx bxs-heart pink mx-50 font-small-3"></i>by<a class="text-uppercase" href="#" target="_blank">CrustNCore</a></span>
             <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="bx bx-up-arrow-alt"></i></button>
         </p>
     </footer>

@@ -68,5 +68,6 @@ $route['updateCategory/(:num)'] = 'product/Product/updateCategory/$1';
 $route['updateProduct/(:num)'] = 'product/Product/updateProduct/$1';
 $route['updateSubCategory/(:num)'] = 'product/Product/updateSubCategory/$1';
 $route['fetchSubCat'] = 'product/Product/getAllSubCategories';
+$route['alert'] = 'product/Product/alert';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
